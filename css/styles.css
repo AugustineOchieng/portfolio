@@ -1,7 +1,13 @@
 h1{
   font-family: 'Megrim', cursive;
+  text-align: center;
 }
 body{
   background-color: #D2FDFF;
-
+  display: flex;
+  flex-direction: column;
+}
+img{
+  width: 80px;
+  align-content: center;
 }
