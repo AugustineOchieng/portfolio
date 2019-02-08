@@ -9,5 +9,25 @@ body{
 }
 img{
   width: 80px;
-  align-content: center;
+}
+.position{
+  text-align: center;
+}
+#code1>img{
+  width: auto;
+  text-align: center;
+}
+nav>ul>li>a{
+  color: #000000;
+  background-color: #FC9E4F;
+  padding:18px;
+  margin:0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  text-align: right;
+}
+nav>ul>li>a:hover{
+  color: #832161;
+  background-color:#FC9E4F;
 }
