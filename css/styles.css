@@ -17,10 +17,8 @@ img{
   width: auto;
 }
 nav>ul>li>a{
-  color: #000000;
-  background-color: #FC9E4F;
-  padding:18px;
-  margin:0 auto;
+  padding: 18px;
+  margin: auto;
   text-decoration: none;
   text-transform: uppercase;
   display: inline;
@@ -31,7 +29,7 @@ nav>ul>li>a:hover{
   color: #832161;
   background-color:#FC9E4F;
 }
-p{
+#nav,p{
   font-family: 'Patrick Hand SC', cursive;
   font-size: 20px;
 }
@@ -62,4 +60,32 @@ h2{
   text-transform: uppercase;
   text-align: right;
   margin-right: 0%;
+}
+#column{
+  height: 450px;
+  margin: 2%;
+  text-align: center;
+  width: auto;
+}
+#decor{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  flex-wrap: unwrap;
+  box-sizing: border-box;
+  position: relative;
+}
+@media screen and (max-width:480px){
+  body{
+    background-color: black;
+    color:white;
+  }
+}
+.image{
+  display: flex;
+  flex-direction: row;
+
+}
+.image>img{
+  width: auto;
 }
